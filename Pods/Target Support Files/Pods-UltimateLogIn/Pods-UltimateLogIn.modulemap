@@ -1,0 +1,6 @@
+framework module Pods_UltimateLogIn {
+  umbrella header "Pods-UltimateLogIn-umbrella.h"
+
+  export *
+  module * { export * }
+}

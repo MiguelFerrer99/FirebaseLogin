@@ -1,0 +1,65 @@
+/* 
+  Localizable.strings
+  UltimateLogIn
+
+  Created by Miguel Ferrer Fornali on 23/11/2020.
+  
+*/
+
+//Login:
+"login" = "Log In";
+"o" = "Or";
+"continue_email" = "Continue with email";
+//LoginEmail:
+"pass" = "Password";
+"confirm_pass" = "Confirm password";
+"email" = "Email";
+"remind_user" = "Remind user";
+"go_sign_up" = "Don't have an account? Sign up";
+"forgot_pass" = "Forgot your password?";
+//SignUp:
+"firstname" = "Firstname";
+"lastname" = "Lastname";
+"cancel" = "Cancel";
+"sign_up" = "Sign Up";
+"have_account" = "Already have an account?";
+//PassReset:
+"reset_password" = "Reset password";
+"remember_password" = "Already remember your password?";
+//Inicio:
+"logout" = "Log Out";
+"welcome1" = "Welcome to the";
+"welcome2" = "home page";
+
+//Login and LoginMail error titles:
+"login_error_title" = "Authentication failure";
+//Login and LoginMail error messages:
+"email_not_verified_login_error_message" = "Your email has not been verified yet. Please verify it before Logging In";
+"google_login_error_message" = "The Google Sign In flow was canceled";
+"unexpected_error_message" = "An unexpected error occurred";
+"email_used_error_message" = "This email is already used by other account";
+//SignUp error titles:
+"registration_failure_title" = "Registration failure";
+"registration_completed_title" = "Registration completed succesfully";
+//SignUp error messages:
+"registration_completed_message" = "Please go back and verify your email before Logging In into your new account";
+"different_passwords_message" = "Passwords must be equal";
+"uploading_to_firestore_error_message" = "Error saving user data to Firestore. Please try again";
+"uploading_to_storage_error_message" = "Error saving user data to Storage. Please try again";
+//Email verification error messages:
+"verification_email_not_sended_message" = "An error occurred. The verification email could not be sent to your address email";
+//PassReset error titles:
+"reset_password_error_title" = "Reset Password Failure";
+"reset_password_success_title" = "Now you can reset your password";
+//PassReset error messages:
+"reset_password_success_message" = "We have just sent you an email to reset your password";
+//Inicio error titles:
+"firestore_error_title" = "Firebase Error";
+//Inicio error messages:
+"getting_from_firestore_error_message" = "Error getting user data from Firestore. Please try again";
+"getting_from_storage_error_message" = "Error getting user data from Storage. Please try again";
+//Errores Firebase:
+"network_error_message" = "A network error has occurred";
+"email_badly_formatted_message" = "Email address format is not valid";
+"password_format_error_message" = "Password must be 6 characters long or more";
+"user_not_exists_error_message" = "There is no user with this email and password";

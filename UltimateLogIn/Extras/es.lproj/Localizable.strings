@@ -1,0 +1,65 @@
+/* 
+  Localizable.strings
+  UltimateLogIn
+
+  Created by Miguel Ferrer Fornali on 23/11/2020.
+  
+*/
+
+//Login:
+"login" = "Iniciar Sesión";
+"o" = "O";
+"continue_email" = "Continuar con email";
+//LoginEmail:
+"pass" = "Contraseña";
+"confirm_pass" = "Confirmar contraseña";
+"email" = "Correo electrónico";
+"remind_user" = "Recordar usuario";
+"go_sign_up" = "No tienes una cuenta? Regístrate";
+"forgot_pass" = "Olvidaste tu contraseña?";
+//SignUp:
+"firstname" = "Nombre";
+"lastname" = "Apellidos";
+"cancel" = "Cancelar";
+"sign_up" = "Registrarse";
+"have_account" = "Ya tienes una cuenta?";
+//PassReset:
+"reset_password" = "Retablecer contraseña";
+"remember_password" = "Ya recuerdas tu contraseña?";
+//Inicio:
+"logout" = "Cerrar Sesión";
+"welcome1" = "Welcome to the";
+"welcome2" = "home page";
+
+//Login and LoginMail error titles:
+"login_error_title" = "Fallo de autenticación";
+//Login and LoginMail error messages:
+"email_not_verified_login_error_message" = "Tu email no ha sido verificado aún. Porfavor verifícalo antes de Iniciar Sesión";
+"google_login_error_message" = "El Inicio de Sesión con Google fue cancelado";
+"unexpected_error_message" = "Ha ocurrido un error inesperado";
+"email_used_error_message" = "Este email ya está usado por otra cuenta";
+//SignUp error titles:
+"registration_failure_title" = "Fallo de registro";
+"registration_completed_title" = "Registro completado exitosamente";
+//SignUp error messages:
+"registration_completed_message" = "Por favor vuelve atrás y verifica tu email antes de Iniciar Sesión en tu nueva cuenta";
+"different_passwords_message" = "Las contraseñas deben ser iguales";
+"uploading_to_firestore_error_message" = "Error guardando los datos en Firestore. Por favor inténtalo de nuevo";
+"uploading_to_storage_error_message" = "Error guardando los datos en Storage. Por favor inténtalo de nuevo";
+//Email verification error messages:
+"verification_email_not_sended_message" = "Ha ocurrido un error. El email de verificación no pudo ser enviado a tu correo";
+//PassReset error titles:
+"reset_password_error_title" = "Fallo del restablecimiento de contraseña";
+"reset_password_success_title" = "Ya puedes restablecer tu contraseña";
+//PassReset error messages:
+"reset_password_success_message" = "Acabamos de enviarte un email para restablecer tu contraseña";
+//Inicio error titles:
+"firestore_error_title" = "Error de Firebase";
+//Inicio error messages:
+"getting_from_firestore_error_message" = "Error obteniendo los datos del usuario de Firestore. Por favor inténtelo de nuevo";
+"getting_from_storage_error_message" = "Error obteniendo los datos del usuario de Storage. Por favor inténtelo de nuevo";
+//Errores Firebase:
+"network_error_message" = "Ha ocurrido un error de conexión";
+"email_badly_formatted_message" = "El formato de la dirección de email no es válido";
+"password_format_error_message" = "La contraseña debe tener 6 o más carácteres";
+"user_not_exists_error_message" = "No existe un usuario que se corresponda con este email y contraseña";
