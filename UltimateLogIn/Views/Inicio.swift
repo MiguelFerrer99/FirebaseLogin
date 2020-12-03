@@ -147,6 +147,7 @@ struct Inicio: View {
             lastname = (GIDSignIn.sharedInstance()?.currentUser.profile.familyName)!
             email = (GIDSignIn.sharedInstance()?.currentUser.profile.email)!
         } else if Auth.auth().currentUser != nil {
+            email = Auth.auth().currentUser!.email!
             let db = Firestore.firestore()
             db.collection("users").document(Auth.auth().currentUser!.uid).addSnapshotListener { (querySnapshot, error) in
                 if error != nil {
