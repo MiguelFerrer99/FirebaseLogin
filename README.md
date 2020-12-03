@@ -1,1 +1,1 @@
-THIS IS A PROJECT BASED ON A SIMPLE LOGIN. THE VIEW HAS BEEN DONE BY USING SWIFTUI FRAMEWORK. FOR THE BACKEND I USED FIREBASE, A SIMPLE AND USEFUL TOOL TO MANAGE YOUR AUTHENTICATION METHOD AND MORE THINGS. I HOPE YOU LIKE IT ;)
+This is a project based on a simple login. The view has been done by using swiftui framework. For the backend i used firebase, a simple and useful tool to manage your authentication method and more things. I hope you like it ;)
